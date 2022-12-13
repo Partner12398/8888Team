@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "8888 Team - PSX PRIVATE V3.8", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "8888 Team - PSX PRIVATE V4.2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
         Name = "Info",
@@ -7,21 +7,30 @@ local Tab = Window:MakeTab({
         PremiumOnly = false
     })
     
-    Tab:AddParagraph("Made By 8888 Team","Premiun")
+    Tab:AddParagraph("Made By 8888 Team","Owner: partner#5193 | Developer's: Masqta_#688,")
     
      local Section = Tab:AddSection({
         Name = "Status"
     })
     
-     Tab:AddLabel("Dupe: Online")
-Online
-    Tab:AddLabel("Trade Scam: Online")
+     Tab:AddLabel("Dupe: ✅")
+
+    Tab:AddLabel("Trade Scam: ✅")
+    
+    Tab:AddLabel("Booth Scam: ✅")
     
      local Section = Tab:AddSection({
-        Name = "Update info"
+        Name = "Update Logs"
     })
     
-     Tab:AddParagraph("[SHINY] UPDATE","Version 3.8")
+     Tab:AddParagraph("[✨SHINY] UPDATE","Version 4.2")
+     
+     Tab:AddParagraph("Duping Is Fully Fixed and Optimized","")
+     Tab:AddParagraph("Trading Scam Fully Fixed!","")
+     Tab:AddParagraph("BUGS Fixed!","")
+     Tab:AddParagraph("Crash Game Fixed!","")
+     Tab:AddParagraph("Game Error 277 Fixed!","")
+     
      
      local Tab = Window:MakeTab({
         Name = "Dupe",
@@ -93,21 +102,13 @@ Online
     })
     
     Tab:AddButton({
-        Name = "ON",
+        Name = "Trading Scam - BETA 1.1",
         Default = false,
         Callback = function(Value)
              loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/info1.lua/main/info1.lua"))()
         end    
     })
-    
-    Tab:AddButton({
-        Name = "OFF",
-        Default = false,
-        Callback = function(Value)
-            print("button pressed")
-        end    
-    })
-    
+        
     local Section = Tab:AddSection({
         Name = "Trade Scam Options"
     })
@@ -134,6 +135,47 @@ Online
     })
     
     Tab:AddParagraph("Bot-Trade","Coming Soon!")
+
+    local Tab = Window:MakeTab({
+        Name = "Booth Scam",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+      local Section = Tab:AddSection({
+        Name = "Booth Section"
+    })
+    
+    Tab:AddButton({
+        Name = "Booth Scam",
+        Callback = function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/info1.lua/main/info1.lua"))()
+          end
+    })
+    
+      local Section = Tab:AddSection({
+        Name = "Booth Options"
+    })
+    
+    Tab:AddBind({
+	Name = "KeyBind",
+	Default = Enum.KeyCode.E,
+	Hold = false,
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Partner12398/info1.lua/main/info1.lua"))()
+	end    
+})
+
+    Tab:AddTextbox({
+	Name = "Gems For use",
+	Default = "Index:1b",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+    Tab:AddLabel("After you bought something from Booth, Click Booth Scam!")
 
       local Tab = Window:MakeTab({
         Name = "Others",
@@ -172,7 +214,7 @@ Online
     
        OrionLib:MakeNotification({
         Name = "8888 Teams Welcome's You!",
-        Content = "Version 3.8 ",
+        Content = "Version 3.9 ",
         Image = "rbxassetid://4483345998",
         Time = 5
     })
@@ -180,6 +222,3 @@ Online
     
     
      OrionLib:Init()
-    
-    
-    
