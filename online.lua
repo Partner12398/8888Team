@@ -13,11 +13,11 @@ local Tab = Window:MakeTab({
         Name = "Status"
     })
     
-     Tab:AddLabel("Dupe: ✅")
+     Tab:AddLabel("Dupe: Online")
 
-    Tab:AddLabel("Trade Scam: ✅")
+    Tab:AddLabel("Trade Scam: Online")
     
-    Tab:AddLabel("Booth Scam: ✅")
+    Tab:AddLabel("Booth Scam: Online")
     
      local Section = Tab:AddSection({
         Name = "Update Logs"
